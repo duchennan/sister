@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F16F7A;
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+header .header_title {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+p {
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+}
+
+.name {
+    border-bottom: 2px solid white;
+}
+
+.line {
+    font-size: 12px;
+}
+
+header nav {
+    height: 55px;
+}
+
+header nav ul{
+    width: 500px;
+    margin: auto;
+}
+
+header nav ul li {
+    list-style: none;
+    float: left;
+    padding: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #E7DAC9;
+}
+
+header nav ul li:hover {
+    border-bottom: #E7DAC9 2px solid;
+}
+
+.border_zhuye {
+    border-bottom: 2px solid #E7DAC9;
+}
+
+header nav {
+    padding-bottom: 10px;
+}
+
+.containter h2 { 
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 5px;
+    border-bottom: 1px dotted white;
+    text-shadow: 3px 3px 2px black;
+}
+
+.containter .figs {
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.containter .figs .fig {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.containter .figs .fig:hover img {
+    background-color: black;
+    opacity: .4 ;
+}
+
+.containter .figs .fig:hover span {
+    display: block;
+}
+
+.containter .figs .fig img {
+    width: 200px;
+    height: 200px;
+    border: #F55066 10px solid;
+}
+
+.containter .figs .fig span {
+    display: none;
+    position: absolute;
+    top: 86px;
+    left: 10px;
+    color: blue; 
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer nav {
+    width: 80%;
+    margin: auto;
+    border-bottom: white solid 2px;
+    padding-bottom: 20px;
+}
+
+footer nav a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
